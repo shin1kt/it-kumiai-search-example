@@ -3,8 +3,8 @@
 
 // export { default as App } from './App/App';
 // export { default as Header } from './Header/Header';
-// export { default as SearchContainer } from './SearchContainer/SearchContainer';
-// export { default as SearchInput } from './SearchInput/SearchInput';
+export { default as SearchContainer } from "./SearchContainer/SearchContainer";
+export { default as SearchInput } from "./SearchInput/SearchInput";
 // export { default as ExpertiseFilter } from './ExpertiseFilter/ExpertiseFilter';
 // export { default as ResultsContainer } from './ResultsContainer/ResultsContainer';
 export { default as MemberCard } from "./MemberCard/MemberCard";

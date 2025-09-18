@@ -1,0 +1,130 @@
+.search-input-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 16px;
+  padding-right: 40px;
+  font-size: 16px;
+  border: 2px solid #e1e5e9;
+  border-radius: 8px;
+  background-color: #ffffff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.search-input:disabled {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  cursor: not-allowed;
+}
+
+.search-input::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.search-clear-button {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #6c757d;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.search-clear-button:hover {
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+.search-clear-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.search-loading-indicator {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+.loading-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #e1e5e9;
+  border-top: 2px solid #007bff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+  .search-input {
+    font-size: 16px; /* iOS でのズームを防ぐ */
+    padding: 14px 16px;
+    padding-right: 44px;
+  }
+
+  .search-clear-button {
+    right: 14px;
+    width: 28px;
+    height: 28px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-input-container {
+    max-width: 100%;
+  }
+
+  .search-input {
+    padding: 16px;
+    padding-right: 48px;
+  }
+
+  .search-clear-button {
+    right: 16px;
+  }
+}

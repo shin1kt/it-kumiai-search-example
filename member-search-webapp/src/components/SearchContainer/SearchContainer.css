@@ -1,0 +1,77 @@
+.search-container {
+  background-color: #f8f9fa;
+  padding: 32px 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.search-container-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.search-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #212529;
+  margin: 0 0 8px 0;
+}
+
+.search-description {
+  font-size: 16px;
+  color: #6c757d;
+  margin: 0 0 24px 0;
+  line-height: 1.5;
+}
+
+.search-input-section {
+  margin-bottom: 16px;
+}
+
+.search-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.loading-text {
+  color: #007bff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+  .search-container {
+    padding: 24px 0;
+  }
+
+  .search-container-inner {
+    padding: 0 16px;
+  }
+
+  .search-title {
+    font-size: 24px;
+  }
+
+  .search-description {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-container {
+    padding: 20px 0;
+  }
+
+  .search-title {
+    font-size: 22px;
+  }
+
+  .search-description {
+    margin-bottom: 16px;
+  }
+}
