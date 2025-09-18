@@ -1,6 +1,6 @@
 import React from 'react';
 import type { SearchResult, Member } from '../../types';
-import { MemberCard } from '../MemberCard';
+import MemberCard from '../MemberCard/MemberCard';
 import './ResultsContainer.css';
 
 interface ResultsContainerProps {

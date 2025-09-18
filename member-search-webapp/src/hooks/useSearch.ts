@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
-import { Member, SearchFilters, SearchResult, SearchState } from "../types";
+import type { Member, SearchFilters, SearchState } from "../types";
 import { SearchService } from "../services";
 import { useDebounce } from "./useDebounce";
 

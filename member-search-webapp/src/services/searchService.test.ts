@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach } from "vitest";
 import { SearchService } from "./searchService";
-import { Member } from "../types";
+import type { Member } from "../types";
 
 describe("SearchService", () => {
   let searchService: SearchService;

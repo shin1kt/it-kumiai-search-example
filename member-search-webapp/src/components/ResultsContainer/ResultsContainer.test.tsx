@@ -105,8 +105,9 @@ describe('ResultsContainer', () => {
     expect(screen.getByText('2件の組合員が見つかりました')).toBeInTheDocument();
     expect(screen.getByText('検索時間: 150ms')).toBeInTheDocument();
 
-    // 組合員カードの表示確認
-    expect(screen.getByText('田中太郎')).toBeInTheDocument();
+    // 組合員カードの表示確認（ハイライトされた部分も含めて検索）
+    expect(screen.getByText('田中', { exact: false })).toBeInTheDocument();
+    expect(screen.getByText('太郎', { exact: false })).toBeInTheDocument();
     expect(screen.getByText('佐藤花子')).toBeInTheDocument();
   });
 

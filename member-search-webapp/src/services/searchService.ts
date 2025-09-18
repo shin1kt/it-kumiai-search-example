@@ -1,5 +1,5 @@
 import Fuse from "fuse.js";
-import { Member, SearchResult } from "../types";
+import type { Member, SearchResult } from "../types";
 
 export class SearchService {
   private fuse: Fuse<Member>;
@@ -9,7 +9,7 @@ export class SearchService {
     this.allMembers = members;
 
     // Fuse.js の設定
-    const options: Fuse.IFuseOptions<Member> = {
+    const options = {
       keys: [
         {
           name: "name",
@@ -126,7 +126,7 @@ export class SearchService {
         result.matches?.map((match) => ({
           key: match.key || "",
           value: match.value || "",
-          indices: match.indices || [],
+          indices: (match.indices || []) as Array<[number, number]>,
         })) || [],
     }));
   }

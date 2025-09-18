@@ -13,10 +13,7 @@ function App() {
     searchState,
     performSearch,
     performRealtimeSearch,
-    isSearching,
-    hasError,
-    hasResults,
-    isEmpty
+    isSearching
   } = useSearch(members);
 
   // 組合員データを読み込む

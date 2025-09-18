@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import MemberCard from './MemberCard';
-import { Member } from '../../types';
+import type { Member } from '../../types';
 
 // テスト用のサンプルデータ
 const mockMember: Member = {

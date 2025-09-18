@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { SearchInput } from '../';
-import { SearchFilters } from '../../types';
+import SearchInput from '../SearchInput/SearchInput';
+import type { SearchFilters } from '../../types';
 import './SearchContainer.css';
 
 interface SearchContainerProps {

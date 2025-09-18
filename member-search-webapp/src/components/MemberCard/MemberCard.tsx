@@ -1,5 +1,5 @@
 import React from 'react';
-import { Member } from '../../types';
+import type { Member } from '../../types';
 import { highlightText } from '../../utils';
 import './MemberCard.css';
 

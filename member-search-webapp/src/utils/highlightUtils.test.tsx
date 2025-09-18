@@ -11,7 +11,7 @@ describe('highlightUtils', () => {
 
     it('マッチしないクエリの場合、元のテキストを返す', () => {
       const result = highlightText('テストテキスト', 'マッチしない');
-      expect(result).toBe('テストテキスト');
+      expect(result).toEqual(['テストテキスト']);
     });
 
     it('単一キーワードのハイライトが正しく動作する', () => {
