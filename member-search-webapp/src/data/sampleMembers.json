@@ -2,79 +2,231 @@
   "members": [
     {
       "id": "member_001",
-      "name": "田中太郎",
-      "contactUrl": "https://example.com/tanaka",
-      "expertiseAreas": ["Webアプリ開発", "データベース設計", "クラウド構築"]
+      "name": "片山 真一",
+      "contactUrl": "http://www.katacom.jp/",
+      "expertiseAreas": []
     },
     {
       "id": "member_002",
-      "name": "佐藤花子",
-      "contactUrl": "https://example.com/sato",
-      "expertiseAreas": ["UI/UXデザイン", "フロントエンド開発"]
+      "name": "小黒 知佳",
+      "contactUrl": "https://csllc.co.jp",
+      "expertiseAreas": []
     },
     {
       "id": "member_003",
-      "name": "鈴木一郎",
-      "contactUrl": "https://example.com/suzuki",
-      "expertiseAreas": ["モバイルアプリ開発", "iOS開発", "Android開発"]
+      "name": "木花 幸隼",
+      "contactUrl": "https://itachi.co.jp/",
+      "expertiseAreas": []
     },
     {
       "id": "member_004",
-      "name": "高橋美咲",
-      "contactUrl": "https://example.com/takahashi",
-      "expertiseAreas": ["データ分析", "機械学習", "Python開発"]
+      "name": "石堀 久司",
+      "contactUrl": "http://www.aiseipc.com/",
+      "expertiseAreas": []
     },
     {
       "id": "member_005",
-      "name": "山田健太",
-      "contactUrl": "https://example.com/yamada",
-      "expertiseAreas": ["インフラ構築", "DevOps", "AWS"]
+      "name": "原田 守",
+      "contactUrl": "https://htjs.jp",
+      "expertiseAreas": []
     },
     {
       "id": "member_006",
-      "name": "中村由美",
-      "contactUrl": "https://example.com/nakamura",
-      "expertiseAreas": ["プロジェクト管理", "アジャイル開発", "スクラム"]
+      "name": "武内 正一郎",
+      "contactUrl": "http://www.vickly.com/",
+      "expertiseAreas": []
     },
     {
       "id": "member_007",
-      "name": "小林正樹",
-      "contactUrl": "https://example.com/kobayashi",
-      "expertiseAreas": ["セキュリティ", "ネットワーク", "サイバーセキュリティ"]
+      "name": "半田 洋丈",
+      "contactUrl": "https://zweihander.jp/",
+      "expertiseAreas": []
     },
     {
       "id": "member_008",
-      "name": "加藤恵子",
-      "contactUrl": "https://example.com/kato",
-      "expertiseAreas": [
-        "Webデザイン",
-        "グラフィックデザイン",
-        "ブランディング"
-      ]
+      "name": "高橋 亨",
+      "contactUrl": "https://bellsoft.jp/",
+      "expertiseAreas": []
     },
     {
       "id": "member_009",
-      "name": "渡辺慎一",
-      "contactUrl": "https://example.com/watanabe",
-      "expertiseAreas": ["バックエンド開発", "API設計", "Node.js"]
+      "name": "小野塚 岳",
+      "contactUrl": "https://www.dip.co.jp/",
+      "expertiseAreas": []
     },
     {
       "id": "member_010",
-      "name": "松本真理",
-      "contactUrl": "https://example.com/matsumoto",
-      "expertiseAreas": ["品質保証", "テスト自動化", "QA"]
+      "name": "久保田 邦彦",
+      "contactUrl": "http://www.chuetsu.net/",
+      "expertiseAreas": []
     },
     {
       "id": "member_011",
-      "name": "井上博文",
-      "contactUrl": "https://example.com/inoue",
-      "expertiseAreas": ["システム設計", "アーキテクチャ", "マイクロサービス"]
+      "name": "渡辺 仁",
+      "contactUrl": "http://www.watanabe-plan.co.jp/",
+      "expertiseAreas": []
     },
     {
       "id": "member_012",
-      "name": "木村あかり",
-      "contactUrl": "https://example.com/kimura",
-      "expertiseAreas": ["コンテンツ制作", "動画編集", "マーケティング"]
+      "name": "藤澤 康行",
+      "contactUrl": "http://www.sogo-net.co.jp/",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_013",
+      "name": "中澤 源一",
+      "contactUrl": "https://stylegate.info",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_014",
+      "name": "新保 一樹",
+      "contactUrl": "http://www.break.ac/",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_015",
+      "name": "安達 タカユキ",
+      "contactUrl": "電脳再生工房アダチ",  // URL missing / not clearly given
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_016",
+      "name": "内山 英機",
+      "contactUrl": "http://uch.c.ooco.jp",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_017",
+      "name": "丸田 健一",
+      "contactUrl": "http://www.jmixnet.co.jp/",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_018",
+      "name": "内城 博志",
+      "contactUrl": "http://popleaf.co.jp",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_019",
+      "name": "片桐 逸男",
+      "contactUrl": "http://pasonet.sakura.ne.jp/",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_020",
+      "name": "室井 大志",
+      "contactUrl": "http://www.trustec.ne.jp/",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_021",
+      "name": "塩入 慎一",
+      "contactUrl": "http://www.kyosho-network.com",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_022",
+      "name": "横山 智樹",
+      "contactUrl": "株式会社惣人",  // URL missing / not clearly given
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_023",
+      "name": "松沢 裕太",
+      "contactUrl": "悠々舎",  // URL missing
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_024",
+      "name": "太田 明",
+      "contactUrl": "http://www.dp-lab.jp/",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_025",
+      "name": "佐藤 傑",
+      "contactUrl": "http://kuno-corp.com/",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_026",
+      "name": "佐藤 宏",
+      "contactUrl": "こみい",  // URL missing
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_027",
+      "name": "竹内 隆",
+      "contactUrl": "品田通信電設 株式会社",  // URL missing
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_028",
+      "name": "本間 忍",
+      "contactUrl": "http://www.itech.co.jp/",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_029",
+      "name": "小黒 元",
+      "contactUrl": "http://sonpushi.com/",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_030",
+      "name": "高橋 新",
+      "contactUrl": "web事業 Ace",  // URL missing
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_031",
+      "name": "相場 基子",
+      "contactUrl": "http://www.kenohlm.com/",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_032",
+      "name": "川上 依咲",
+      "contactUrl": "https://tsuku2.jp/goke-ec",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_033",
+      "name": "市村 二三代",
+      "contactUrl": "ながおか会計 南事務所",  // URL missing
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_034",
+      "name": "稲川 雄一",
+      "contactUrl": "http://www.nct9.co.jp",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_035",
+      "name": "山口 昌一",
+      "contactUrl": "http://www.njc-web.net",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_036",
+      "name": "野水 栄",
+      "contactUrl": "https://nscs.jp/",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_037",
+      "name": "遠山 憲夫",
+      "contactUrl": "https://www.souken.co.jp/",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_038",
+      "name": "高橋健太",
+      "contactUrl": "",  // URL not shown
+      "expertiseAreas": []
     }
   ]
 }
