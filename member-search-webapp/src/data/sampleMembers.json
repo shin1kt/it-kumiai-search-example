@@ -1,0 +1,80 @@
+{
+  "members": [
+    {
+      "id": "member_001",
+      "name": "田中太郎",
+      "contactUrl": "https://example.com/tanaka",
+      "expertiseAreas": ["Webアプリ開発", "データベース設計", "クラウド構築"]
+    },
+    {
+      "id": "member_002",
+      "name": "佐藤花子",
+      "contactUrl": "https://example.com/sato",
+      "expertiseAreas": ["UI/UXデザイン", "フロントエンド開発"]
+    },
+    {
+      "id": "member_003",
+      "name": "鈴木一郎",
+      "contactUrl": "https://example.com/suzuki",
+      "expertiseAreas": ["モバイルアプリ開発", "iOS開発", "Android開発"]
+    },
+    {
+      "id": "member_004",
+      "name": "高橋美咲",
+      "contactUrl": "https://example.com/takahashi",
+      "expertiseAreas": ["データ分析", "機械学習", "Python開発"]
+    },
+    {
+      "id": "member_005",
+      "name": "山田健太",
+      "contactUrl": "https://example.com/yamada",
+      "expertiseAreas": ["インフラ構築", "DevOps", "AWS"]
+    },
+    {
+      "id": "member_006",
+      "name": "中村由美",
+      "contactUrl": "https://example.com/nakamura",
+      "expertiseAreas": ["プロジェクト管理", "アジャイル開発", "スクラム"]
+    },
+    {
+      "id": "member_007",
+      "name": "小林正樹",
+      "contactUrl": "https://example.com/kobayashi",
+      "expertiseAreas": ["セキュリティ", "ネットワーク", "サイバーセキュリティ"]
+    },
+    {
+      "id": "member_008",
+      "name": "加藤恵子",
+      "contactUrl": "https://example.com/kato",
+      "expertiseAreas": [
+        "Webデザイン",
+        "グラフィックデザイン",
+        "ブランディング"
+      ]
+    },
+    {
+      "id": "member_009",
+      "name": "渡辺慎一",
+      "contactUrl": "https://example.com/watanabe",
+      "expertiseAreas": ["バックエンド開発", "API設計", "Node.js"]
+    },
+    {
+      "id": "member_010",
+      "name": "松本真理",
+      "contactUrl": "https://example.com/matsumoto",
+      "expertiseAreas": ["品質保証", "テスト自動化", "QA"]
+    },
+    {
+      "id": "member_011",
+      "name": "井上博文",
+      "contactUrl": "https://example.com/inoue",
+      "expertiseAreas": ["システム設計", "アーキテクチャ", "マイクロサービス"]
+    },
+    {
+      "id": "member_012",
+      "name": "木村あかり",
+      "contactUrl": "https://example.com/kimura",
+      "expertiseAreas": ["コンテンツ制作", "動画編集", "マーケティング"]
+    }
+  ]
+}
