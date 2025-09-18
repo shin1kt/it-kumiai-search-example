@@ -113,6 +113,13 @@
   }
 }
 
+/* メンバーカードコンテナ */
+.member-cards-container {
+  display: grid;
+  gap: var(--spacing-md);
+  grid-template-columns: 1fr;
+}
+
 /* レスポンシブデザイン - デスクトップ */
 @media (min-width: 1025px) {
   .app-title {
@@ -125,5 +132,9 @@
 
   .container {
     max-width: 1200px;
+  }
+
+  .member-cards-container {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
 }

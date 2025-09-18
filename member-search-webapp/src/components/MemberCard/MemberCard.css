@@ -1,0 +1,186 @@
+/* MemberCard コンポーネントのスタイル */
+.member-card {
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s ease;
+  margin-bottom: var(--spacing-md);
+}
+
+.member-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+/* 組合員名 */
+.member-header {
+  margin-bottom: var(--spacing-md);
+}
+
+.member-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--text-primary);
+  margin: 0;
+  line-height: 1.3;
+}
+
+/* 連絡先リンク */
+.member-contact {
+  margin-bottom: var(--spacing-md);
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: calc(var(--border-radius) * 0.5);
+  transition: all 0.2s ease;
+}
+
+.contact-link:hover {
+  background-color: var(--surface-color);
+  text-decoration: underline;
+}
+
+.contact-link:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+.contact-icon {
+  font-size: 0.9rem;
+}
+
+/* 得意分野セクション */
+.member-expertise {
+  margin-top: var(--spacing-md);
+}
+
+.expertise-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.expertise-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+}
+
+.expertise-tag {
+  display: inline-block;
+  background-color: var(--surface-color);
+  color: var(--text-primary);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: calc(var(--border-radius) * 0.75);
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid var(--border-color);
+  transition: all 0.2s ease;
+}
+
+.expertise-tag:hover {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+/* ハイライト表示 */
+.highlight {
+  background-color: #fef08a;
+  color: var(--text-primary);
+  padding: 0 2px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+/* レスポンシブデザイン - モバイル */
+@media (max-width: 768px) {
+  .member-card {
+    padding: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
+  }
+
+  .member-name {
+    font-size: 1.1rem;
+  }
+
+  .expertise-tags {
+    gap: var(--spacing-xs);
+  }
+
+  .expertise-tag {
+    font-size: 0.8rem;
+    padding: calc(var(--spacing-xs) * 0.75) var(--spacing-xs);
+  }
+
+  .contact-link {
+    font-size: 0.9rem;
+  }
+}
+
+/* レスポンシブデザイン - タブレット */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .member-card {
+    padding: var(--spacing-lg);
+  }
+
+  .member-name {
+    font-size: 1.2rem;
+  }
+}
+
+/* レスポンシブデザイン - デスクトップ */
+@media (min-width: 1025px) {
+  .member-card {
+    padding: var(--spacing-xl);
+  }
+
+  .member-name {
+    font-size: 1.3rem;
+  }
+
+  .expertise-tags {
+    gap: var(--spacing-sm);
+  }
+}
+
+/* アクセシビリティ - 高コントラストモード */
+@media (prefers-contrast: high) {
+  .member-card {
+    border-width: 2px;
+  }
+
+  .highlight {
+    background-color: #ffff00;
+    color: #000000;
+  }
+
+  .expertise-tag {
+    border-width: 2px;
+  }
+}
+
+/* アクセシビリティ - 動きを減らす設定 */
+@media (prefers-reduced-motion: reduce) {
+  .member-card,
+  .contact-link,
+  .expertise-tag {
+    transition: none;
+  }
+
+  .member-card:hover {
+    transform: none;
+  }
+}
