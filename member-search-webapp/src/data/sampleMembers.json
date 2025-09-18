@@ -2,79 +2,88 @@
   "members": [
     {
       "id": "member_001",
-      "name": "田中太郎",
-      "contactUrl": "https://example.com/tanaka",
-      "expertiseAreas": ["Webアプリ開発", "データベース設計", "クラウド構築"]
+      "name": "片山 真一",
+      "contactUrl": "http://www.katacom.jp/",
+      "expertiseAreas": [
+        "Web周りのフロントエンド開発",
+        "Web活用サポート"
+      ]
     },
     {
       "id": "member_002",
-      "name": "佐藤花子",
-      "contactUrl": "https://example.com/sato",
-      "expertiseAreas": ["UI/UXデザイン", "フロントエンド開発"]
+      "name": "小黒 知佳",
+      "contactUrl": "https://csllc.co.jp",
+      "expertiseAreas": [
+        "戦略を軸にしたコンテンツおよびブランドデザイン",
+        "漫画・キャラクターの制作および活用支援",
+        "各種広報物の運用支援"
+      ]
     },
     {
       "id": "member_003",
-      "name": "鈴木一郎",
-      "contactUrl": "https://example.com/suzuki",
-      "expertiseAreas": ["モバイルアプリ開発", "iOS開発", "Android開発"]
+      "name": "木花 幸隼",
+      "contactUrl": "https://itachi.co.jp/",
+      "expertiseAreas": []
     },
     {
       "id": "member_004",
-      "name": "高橋美咲",
-      "contactUrl": "https://example.com/takahashi",
-      "expertiseAreas": ["データ分析", "機械学習", "Python開発"]
+      "name": "石堀 久司",
+      "contactUrl": "http://www.aiseipc.com/",
+      "expertiseAreas": []
     },
     {
       "id": "member_005",
-      "name": "山田健太",
-      "contactUrl": "https://example.com/yamada",
-      "expertiseAreas": ["インフラ構築", "DevOps", "AWS"]
+      "name": "原田 守",
+      "contactUrl": "https://htjs.jp",
+      "expertiseAreas": [
+        "ビジネスフォン・防犯カメラ・無線LAN・ケーブルテレビ"
+      ]
     },
     {
       "id": "member_006",
-      "name": "中村由美",
-      "contactUrl": "https://example.com/nakamura",
-      "expertiseAreas": ["プロジェクト管理", "アジャイル開発", "スクラム"]
+      "name": "武内 正一郎",
+      "contactUrl": "http://www.vickly.com/",
+      "expertiseAreas": [
+        "ログイン型及び会員制ホームページの開発・運用",
+        "製造業・流通業向け業務改善"
+      ]
     },
     {
       "id": "member_007",
-      "name": "小林正樹",
-      "contactUrl": "https://example.com/kobayashi",
-      "expertiseAreas": ["セキュリティ", "ネットワーク", "サイバーセキュリティ"]
+      "name": "半田 洋丈",
+      "contactUrl": "https://zweihander.jp/",
+      "expertiseAreas": [
+        "開発プロジェクトマネジメント",
+        "品質向上",
+        "要件定義とシステム設計",
+        "組込みソフト（ハンディターミナル等）"
+      ]
     },
     {
       "id": "member_008",
-      "name": "加藤恵子",
-      "contactUrl": "https://example.com/kato",
+      "name": "高橋 亨",
+      "contactUrl": "https://bellsoft.jp/",
       "expertiseAreas": [
-        "Webデザイン",
-        "グラフィックデザイン",
-        "ブランディング"
+        "ビジネスアプリケーションの開発",
+        "ホームページデザイン"
       ]
     },
     {
       "id": "member_009",
-      "name": "渡辺慎一",
-      "contactUrl": "https://example.com/watanabe",
-      "expertiseAreas": ["バックエンド開発", "API設計", "Node.js"]
+      "name": "小野塚 岳",
+      "contactUrl": "https://www.dip.co.jp/",
+      "expertiseAreas": [
+        "印刷・Web・動画・SNS・イベント等",
+        "クロスメディアでの情報発信の企画・提案",
+        "お客様サポート"
+      ]
     },
     {
       "id": "member_010",
-      "name": "松本真理",
-      "contactUrl": "https://example.com/matsumoto",
-      "expertiseAreas": ["品質保証", "テスト自動化", "QA"]
-    },
-    {
-      "id": "member_011",
-      "name": "井上博文",
-      "contactUrl": "https://example.com/inoue",
-      "expertiseAreas": ["システム設計", "アーキテクチャ", "マイクロサービス"]
-    },
-    {
-      "id": "member_012",
-      "name": "木村あかり",
-      "contactUrl": "https://example.com/kimura",
-      "expertiseAreas": ["コンテンツ制作", "動画編集", "マーケティング"]
-    }
-  ]
-}
+      "name": "久保田 邦彦",
+      "contactUrl": "http://www.chuetsu.net/",
+      "expertiseAreas": [
+        "トーン＆マナーの整ったトータル企画・デザイン",
+        "SEO対策"
+      ]
+   
