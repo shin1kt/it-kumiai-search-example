@@ -2,79 +2,357 @@
   "members": [
     {
       "id": "member_001",
-      "name": "田中太郎",
-      "contactUrl": "https://example.com/tanaka",
-      "expertiseAreas": ["Webアプリ開発", "データベース設計", "クラウド構築"]
+      "name": "片山 真一",
+      "company": "カタコム",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": ["ホームページ制作", "Webシステム開発"]
     },
     {
       "id": "member_002",
-      "name": "佐藤花子",
-      "contactUrl": "https://example.com/sato",
-      "expertiseAreas": ["UI/UXデザイン", "フロントエンド開発"]
+      "name": "小黒 知佳",
+      "company": "CS合同会社",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": [
+        "ブランディング",
+        "デザイン",
+        "WEBサイト企画制作",
+        "漫画コンテンツ制作",
+        "運用支援",
+        "企業研修",
+        "セミナー講師"
+      ]
     },
     {
       "id": "member_003",
-      "name": "鈴木一郎",
-      "contactUrl": "https://example.com/suzuki",
-      "expertiseAreas": ["モバイルアプリ開発", "iOS開発", "Android開発"]
+      "name": "木花 幸隼",
+      "company": "株式会社イタチ",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": []
     },
     {
       "id": "member_004",
-      "name": "高橋美咲",
-      "contactUrl": "https://example.com/takahashi",
-      "expertiseAreas": ["データ分析", "機械学習", "Python開発"]
+      "name": "石堀 久司",
+      "company": "株式会社アイセイPC",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": []
     },
     {
       "id": "member_005",
-      "name": "山田健太",
-      "contactUrl": "https://example.com/yamada",
-      "expertiseAreas": ["インフラ構築", "DevOps", "AWS"]
+      "name": "原田 守",
+      "company": "株式会社原田通機",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": ["情報通信ネットワーク設備", "設計施工", "メンテナンス"]
     },
     {
       "id": "member_006",
-      "name": "中村由美",
-      "contactUrl": "https://example.com/nakamura",
-      "expertiseAreas": ["プロジェクト管理", "アジャイル開発", "スクラム"]
+      "name": "武内 正一郎",
+      "company": "株式会社ビックリマーク",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": [
+        "ホームページ構築",
+        "開発",
+        "運用",
+        "業務改善支援",
+        "ITコーディネータ",
+        "IT経営支援"
+      ]
     },
     {
       "id": "member_007",
-      "name": "小林正樹",
-      "contactUrl": "https://example.com/kobayashi",
-      "expertiseAreas": ["セキュリティ", "ネットワーク", "サイバーセキュリティ"]
+      "name": "半田 洋丈",
+      "company": "株式会社ツヴァイハンダー・ジャパン",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": [
+        "ソフトウェア開発",
+        "インフラ設定",
+        "プログラミング教室"
+      ]
     },
     {
       "id": "member_008",
-      "name": "加藤恵子",
-      "contactUrl": "https://example.com/kato",
+      "name": "高橋 亨",
+      "company": "株式会社BELLSOFT",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
       "expertiseAreas": [
-        "Webデザイン",
-        "グラフィックデザイン",
-        "ブランディング"
+        "ソフトウェア開発",
+        "ホームページ作成",
+        "レンタルサーバ"
       ]
     },
     {
       "id": "member_009",
-      "name": "渡辺慎一",
-      "contactUrl": "https://example.com/watanabe",
-      "expertiseAreas": ["バックエンド開発", "API設計", "Node.js"]
+      "name": "小野塚 岳",
+      "company": "株式会社DI Palette",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": [
+        "印刷",
+        "出版",
+        "情報加工",
+        "処理",
+        "事務処理受託",
+        "インターネットサービス",
+        "通信販売",
+        "広告代理",
+        "イベント企画",
+        "商品企画"
+      ]
     },
     {
       "id": "member_010",
-      "name": "松本真理",
-      "contactUrl": "https://example.com/matsumoto",
-      "expertiseAreas": ["品質保証", "テスト自動化", "QA"]
+      "name": "久保田 邦彦",
+      "company": "株式会社中越クリエイティブ",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": [
+        "ホームページ制作",
+        "パンフレットデザイン",
+        "印刷",
+        "名刺制作",
+        "映像編集",
+        "映像制作",
+        "ロゴデザイン"
+      ]
     },
     {
       "id": "member_011",
-      "name": "井上博文",
-      "contactUrl": "https://example.com/inoue",
-      "expertiseAreas": ["システム設計", "アーキテクチャ", "マイクロサービス"]
+      "name": "渡辺 仁",
+      "company": "有限会社ワタナベプラン",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": []
     },
     {
       "id": "member_012",
-      "name": "木村あかり",
-      "contactUrl": "https://example.com/kimura",
-      "expertiseAreas": ["コンテンツ制作", "動画編集", "マーケティング"]
+      "name": "中澤 源一",
+      "company": "スタイルゲート",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": [
+        "レスポンシブホームページ制作",
+        "ショップサイト構築",
+        "Webコンサル",
+        "SEO",
+        "LPO",
+        "WordPress",
+        "テーマ販売",
+        "CMS concrete5",
+        "PHP"
+      ]
+    },
+    {
+      "id": "member_013",
+      "name": "新保 一樹",
+      "company": "株式会社ブレーク",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": [
+        "PCアプリケーション開発",
+        "クラウド型アプリケーション開発",
+        "サービス提供"
+      ]
+    },
+    {
+      "id": "member_014",
+      "name": "安達 タカユキ",
+      "company": "電脳再生工房アダチ",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": [
+        "PC製作修理",
+        "ハードウエア設定",
+        "中古PC販売",
+        "3D-CAD作図",
+        "3D-プリンター出力"
+      ]
+    },
+    {
+      "id": "member_015",
+      "name": "内山 英機",
+      "company": "長次郎",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_016",
+      "name": "丸田 健一",
+      "company": "株式会社ジェーミックス",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": [
+        "電気通信事業",
+        "データセンター運営",
+        "コールセンター",
+        "ヘルプデスク運営",
+        "ICTソリューション",
+        "サーバー構築",
+        "ネットワーク構築",
+        "システム開発",
+        "ホームページ制作",
+        "ホスティングサービス",
+        "学校向けICT支援"
+      ]
+    },
+    {
+      "id": "member_017",
+      "name": "内城 博志",
+      "company": "株式会社POPLEAF",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": [
+        "ホームページ制作",
+        "ソフトウェア開発",
+        "PC設計",
+        "ネットワーク設計",
+        "メンテナンス"
+      ]
+    },
+    {
+      "id": "member_018",
+      "name": "片桐 逸男",
+      "company": "パソコンスクールNET",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": ["パソコン教室", "資格対策講座"]
+    },
+    {
+      "id": "member_019",
+      "name": "室井 大志",
+      "company": "株式会社トラス・テック",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": ["ソフトウェア開発", "クラウドサービス販売"]
+    },
+    {
+      "id": "member_020",
+      "name": "塩入 慎一",
+      "company": "株式会社キョーショー",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_021",
+      "name": "横山 智樹",
+      "company": "株式会社惣人",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_022",
+      "name": "松沢 裕太",
+      "company": "悠々舎",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_023",
+      "name": "太田 明",
+      "company": "デジプロ研",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": [
+        "3次元CAD導入",
+        "立上げ支援",
+        "シミュレーション技術開発",
+        "3Dモデリングサービス",
+        "製品設計開発支援"
+      ]
+    },
+    {
+      "id": "member_024",
+      "name": "佐藤 傑",
+      "company": "株式会社KUNO",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_025",
+      "name": "佐藤 宏",
+      "company": "こみい",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_026",
+      "name": "竹内 隆",
+      "company": "品田通信電設 株式会社",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_027",
+      "name": "本間 忍",
+      "company": "有限会社アイテック",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_028",
+      "name": "小黒 元",
+      "company": "株式会社そんぷうし",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": ["動画編集", "SNS活用支援", "ECサイト構築"]
+    },
+    {
+      "id": "member_029",
+      "name": "高橋 新",
+      "company": "web事業 Ace",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": [
+        "ホームページ販売",
+        "マーケティングサポート",
+        "SNSマーケティングサポート"
+      ]
+    },
+    {
+      "id": "member_030",
+      "name": "相場 基子",
+      "company": "県央ランドマーク株式会社",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": [
+        "貸し会議室運営",
+        "コワーキングスペース運営",
+        "DX人材育成",
+        "プログラミング教室"
+      ]
+    },
+    {
+      "id": "member_031",
+      "name": "川上 依咲",
+      "company": "株式会社よしや EC事業部 5&K Design",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": ["デザイン制作", "ECソリューション営業", "イベント企画"]
+    },
+    {
+      "id": "member_032",
+      "name": "市村 二三代",
+      "company": "ながおか会計 南事務所",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_033",
+      "name": "稲川 雄一",
+      "company": "株式会社エヌ・シィ・ティ",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": [
+        "ケーブルテレビ事業",
+        "放送",
+        "NET回線",
+        "固定電話",
+        "モバイル事業",
+        "映像制作"
+      ]
+    },
+    {
+      "id": "member_034",
+      "name": "山口 昌一",
+      "company": "NJC 長岡公務員・情報ビジネス専門学校",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": ["教育サービス業"]
+    },
+    {
+      "id": "member_035",
+      "name": "野水 栄",
+      "company": "株式会社NS・コンピュータサービス",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": []
+    },
+    {
+      "id": "member_036",
+      "name": "遠山 憲夫",
+      "company": "創研情報株式会社",
+      "contactUrl": "https://nagaokait.com/member/member/#member-387",
+      "expertiseAreas": ["システム開発", "システム構築", "運用"]
     }
   ]
 }

@@ -25,7 +25,9 @@ const SearchContainer: React.FC<SearchContainerProps> = ({
 
   const handleSearchChange = (value: string) => {
     setSearchQuery(value);
-    
+  };
+
+  const handleSearch = (value: string) => {
     // 検索フィルターを作成
     const filters: SearchFilters = {
       query: value,
@@ -53,6 +55,7 @@ const SearchContainer: React.FC<SearchContainerProps> = ({
           <SearchInput
             value={searchQuery}
             onChange={handleSearchChange}
+            onSearch={handleSearch}
             disabled={isLoading}
             isLoading={isLoading}
             placeholder="組合員名または得意分野で検索..."
