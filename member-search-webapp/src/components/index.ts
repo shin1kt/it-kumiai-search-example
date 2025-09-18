@@ -6,6 +6,6 @@
 export { default as SearchContainer } from "./SearchContainer/SearchContainer";
 export { default as SearchInput } from "./SearchInput/SearchInput";
 // export { default as ExpertiseFilter } from './ExpertiseFilter/ExpertiseFilter';
-// export { default as ResultsContainer } from './ResultsContainer/ResultsContainer';
+export { ResultsContainer } from "./ResultsContainer";
 export { default as MemberCard } from "./MemberCard/MemberCard";
 // export { default as Footer } from './Footer/Footer';

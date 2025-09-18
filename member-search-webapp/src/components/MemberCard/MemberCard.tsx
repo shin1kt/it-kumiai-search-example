@@ -1,5 +1,6 @@
 import React from 'react';
 import { Member } from '../../types';
+import { highlightText } from '../../utils';
 import './MemberCard.css';
 
 interface MemberCardProps {
@@ -12,28 +13,6 @@ interface MemberCardProps {
  * 要件 3.1, 3.2, 3.3 に対応
  */
 const MemberCard: React.FC<MemberCardProps> = ({ member, searchQuery = '' }) => {
-  /**
-   * 検索キーワードをハイライト表示する関数
-   */
-  const highlightText = (text: string, query: string): React.ReactNode => {
-    if (!query.trim()) {
-      return text;
-    }
-
-    const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
-    const parts = text.split(regex);
-
-    return parts.map((part, index) => 
-      regex.test(part) ? (
-        <mark key={index} className="highlight">
-          {part}
-        </mark>
-      ) : (
-        part
-      )
-    );
-  };
-
   return (
     <div className="member-card">
       {/* 組合員名 */}

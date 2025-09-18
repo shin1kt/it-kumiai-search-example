@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { SearchContainer, MemberCard } from './components';
-import { SearchFilters, Member } from './types';
+import { useState, useEffect } from 'react';
+import { SearchContainer, ResultsContainer } from './components';
+import type { SearchFilters, Member } from './types';
 import { useSearch } from './hooks';
-import { loadMembers } from './data';
+import { loadMemberData } from './data';
 import './App.css'
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
     const loadData = async () => {
       try {
         setIsLoading(true);
-        const memberData = await loadMembers();
+        const memberData = await loadMemberData();
         setMembers(memberData);
       } catch (error) {
         console.error('データの読み込みに失敗しました:', error);
@@ -68,39 +68,12 @@ function App() {
 
         <div className="container">
           {/* 結果コンテナ */}
-          <div className="results-section">
-            {isLoading && (
-              <p className="placeholder-text">データを読み込み中...</p>
-            )}
-            
-            {hasError && (
-              <p className="placeholder-text">
-                エラーが発生しました: {searchState.error}
-              </p>
-            )}
-            
-            {!isLoading && !hasError && isEmpty && (
-              <p className="placeholder-text">
-                検索条件に一致する組合員が見つかりませんでした
-              </p>
-            )}
-            
-            {!isLoading && !hasError && hasResults && (
-              <>
-                <div className="search-stats">
-                  <p>
-                    {searchState.results?.totalCount}件の組合員が見つかりました
-                    （検索時間: {searchState.results?.searchTime}ms）
-                  </p>
-                </div>
-                <div className="member-cards-container">
-                  {searchState.results?.members.map(member => (
-                    <MemberCard key={member.id} member={member} />
-                  ))}
-                </div>
-              </>
-            )}
-          </div>
+          <ResultsContainer
+            searchResult={searchState.results}
+            isLoading={isLoading || isSearching}
+            error={searchState.error}
+            query={searchState.filters.query}
+          />
         </div>
       </main>
 

@@ -1,0 +1,125 @@
+/* ResultsContainer スタイル */
+.results-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* 検索統計 */
+.search-stats {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #007bff;
+}
+
+.results-count {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 0.5rem 0;
+}
+
+.search-time {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+/* メンバーカードグリッド */
+.member-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* ローディングメッセージ */
+.loading-message {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.loading-message p {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 0;
+}
+
+/* エラーメッセージ */
+.error-message {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.error-message p {
+  font-size: 1.1rem;
+  color: #dc3545;
+  margin: 0;
+  padding: 1rem;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+/* 結果なしメッセージ */
+.no-results-message {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.no-results-message p {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 0;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border: 2px dashed #dee2e6;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+  .results-container {
+    padding: 0.5rem;
+  }
+
+  .member-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .search-stats {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+  }
+
+  .results-count {
+    font-size: 1rem;
+  }
+
+  .search-time {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .results-container {
+    padding: 0.25rem;
+  }
+
+  .search-stats {
+    padding: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .no-results-message p,
+  .error-message p {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+}
